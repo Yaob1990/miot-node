@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "module": "commonjs",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "allowJs": true,
+    "noImplicitAny": false,
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["node", "jest"],
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.spec.ts"]
+}
